@@ -3,11 +3,6 @@ CI/CD 상태 - [![CI/CD](https://github.com/GoGradually/SuperBoard/actions/workf
 테스트 코드 커버리지 - [![codecov](https://codecov.io/gh/GoGradually/SuperBoard/graph/badge.svg?token=VFHVL9J58Q)](https://codecov.io/gh/GoGradually/SuperBoard)
 
 # 주요 목표
-### 비즈니스 관점
-- **사용자 간의 실시간 소통**을 킬러 기능으로 추구한다.
-- 다양한 사용자 간의 실시간 토론이 원할한 구조로 설계한다.
-
-### 개발 관점
 - 저지연, 고성능, 실시간을 추구한다.
 - DDD, 클린 아키텍처를 소프트웨어 아키텍처로 갖는다.
 - 분석 관점에서 OOA를 통해 작업의 순서를 결정한다.
@@ -137,20 +132,6 @@ mermaid
 # 패키지 구조
 
 ```
-
-## 서비스 코어 기능
-- [ ] 대댓글 기능
-  - 사용자 간의 공개적 소통
-  - 계층형 구조 고려중
-- [ ] 조회수/추천수 순위 실시간 랭킹 기능
-  - 사용자가 현재 게시판의 트렌드를 확인할 수 있도록
-- [ ] 실시간 게시글/댓글 좋아요 기능 구현
-  - 현재 게시글의 좋아요/싫어요 상승 추세를 파악할 수 있도록
-  - 이용자가 실시간으로 소통하고 있다는 느낌 받을 수 있도록
-- [ ] 첨부 파일 업로드
-## 더 나은 성능 관점
-- [ ] 실패 레코드 롤백/재시도 전략(백오프/예외처리 흐름 설계)
-- [ ] 비동기/Primary-Secondary(master-slave)구조
 
 
 
